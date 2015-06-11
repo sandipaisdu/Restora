@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'aleoregular';
+}
+body {
+    background: #FFFAE5;
+}
+/* font-face */
+
+@font-face {
+    font-family: 'wc_mano_negra_btabold';
+    src: url('fonts/wcmanonegraboldbta-webfont.eot');
+    src: url('fonts/wcmanonegraboldbta-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/wcmanonegraboldbta-webfont.woff2') format('woff2'), url('fonts/wcmanonegraboldbta-webfont.woff') format('woff'), url('fonts/wcmanonegraboldbta-webfont.ttf') format('truetype'), url('fonts/wcmanonegraboldbta-webfont.svg#wc_mano_negra_btabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wc_mano_negra_btaregular';
+    src: url('fonts/wcmanonegrabta-webfont.eot');
+    src: url('fonts/wcmanonegrabta-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/wcmanonegrabta-webfont.woff2') format('woff2'), url('fonts/wcmanonegrabta-webfont.woff') format('woff'), url('fonts/wcmanonegrabta-webfont.ttf') format('truetype'), url('fonts/wcmanonegrabta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleoregular';
+    src: url('fonts/aleo-regular-webfont.eot');
+    src: url('fonts/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo-regular-webfont.woff2') format('woff2'), url('fonts/aleo-regular-webfont.woff') format('woff'), url('fonts/aleo-regular-webfont.ttf') format('truetype'), url('fonts/aleo-regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/aleo-bold-webfont.eot');
+    src: url('fonts/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo-bold-webfont.woff2') format('woff2'), url('fonts/aleo-bold-webfont.woff') format('woff'), url('fonts/aleo-bold-webfont.ttf') format('truetype'), url('fonts/aleo-bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleolight';
+    src: url('fonts/aleo-light-webfont.eot');
+    src: url('fonts/aleo-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo-light-webfont.woff2') format('woff2'), url('fonts/aleo-light-webfont.woff') format('woff'), url('fonts/aleo-light-webfont.ttf') format('truetype'), url('fonts/aleo-light-webfont.svg#aleolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*End of font-face */
+
+/*Header Area*/
+
+.heading {
+    line-height: 0;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.heading h2 {
+    font-family: 'wc_mano_negra_btabold';
+    color: #660000;
+    font-size: 45px;
+}
+.heading p {
+    color: #FF9966;
+}
+/*End of Header Area*/
+
+/*Slider Area*/
+
+.item img {
+    position: relative;
+}
+/*End of Slider Area*/
+
+/*Menu Area*/
+
+.menu {} .menu h2 {
+    text-align: center;
+}
+.menu_item {
+    font-size: 22px;
+    position: relative;
+}
+.subtitle {
+    font-size: 16px;
+    font-family: 'aleolight';
+}
+.price {
+    float: right;
+    font-size: 30px;
+    color: #CDCF10;
+}
+/*End of Menu Area*/
+
+/*dishes area*/
+
+#owl-demo .item {
+    margin: 3px;
+}
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#owl-demo .item h4 {
+    font-family: 'aleoregular';
+    font-size: 18px;
+    text-align: center;
+}
+#owl-demo .item h4 span {
+    margin-left: 25px;
+}
+.golden_color {
+    color: #f1df1a;
+}
+.ash_color {
+    color: #dedede;
+}
+.reviews {
+    text-align: center;
+}
+/*end of dishes area*/
+
+/*Gallery Area*/
+
+.portfolio_heading {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+}
+.portfolio {
+    padding: 40px 0;
+}
+.portfolio_filter ul {
+    margin-left: 495px;
+}
+.portfolio_filter ul li:hover {
+    cursor: pointer;
+    color: #660000;
+}
+.portfolio_filter ul li {
+    color: #616161;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+div > .portfolio_list {
+    margin: 20px auto;
+}
+div > .portfolio_list > .single_portfolio {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio_detail {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.portfolio_detail a {
+    border: 2px solid #fff;
+    /*border-radius*/
+    -webkit-border-radius: 87px;
+    -moz-border-radius: 87px;
+    border-radius: 87px;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 60px;
+    margin: 60px 5px;
+    padding: 10px;
+    position: relative;
+    width: 60px;
+    z-index: 999;
+}
+.portfolio_list .mix {
+    display: none;
+}
+.overlay {
+    height: 250px;
+    background: #96a4ad;
+    opacity: 0.6;
+    position: relative;
+    /*transition*/
+    -webkit-transition: transform 300ms;
+    -moz-transition: transform 300ms;
+    -o-transition: transform 300ms;
+    transition: transform 300ms;
+}
+.icon {
+    border: 2px solid #4bcaff;
+    /*border-radius*/
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 50px;
+    z-index: 999999;
+}
+.my_icon {
+    color: #4bcaff;
+}
+.single_portfolio:hover .overlay {
+    /*transform*/
+    -webkit-transform: translateY(-250px);
+    -moz-transform: translateY(-250px);
+    -ms-transform: translateY(-250px);
+    -o-transform: translateY(-250px);
+    transform: translateY(-250px);
+}
+.single_portfolio:hover .icon {
+    display: block;
+    z-index: 999999;
+}
+div > .portfolio_list > .single_portfolio:hover .portfolio_img {
+    /*transform*/
+    -webkit-transform: scale(1, 1) rotate(360deg);
+    -moz-transform: scale(1, 1) rotate(360deg);
+    -ms-transform: scale(1, 1) rotate(360deg);
+    -o-transform: scale(1, 1) rotate(360deg);
+    transform: scale(1, 1) rotate(360deg);
+}
+div > .portfolio_list > .single_portfolio >.portfolio_img {
+    /*transition*/
+    -webkit-transition: transform 3000ms;
+    -moz-transition: transform 3000ms;
+    -o-transition: transform 3000ms;
+    transition: transform 3000ms;
+}
+/*End of Gallery Area*/
+
+/*footer Area*/
+
+footer {
+    background: #ddd;
+}
+.footer_content a {
+    text-decoration: none;
+    color: #333333;
+}
+/*End of footer Area*/
+
+.single_portfolio {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 227px;
+    height: 250px;
+    overflow: hidden;
+}
+.portfolio_filter ul {
+    text-align: center;
+}
+.owl-pagination {
+    margin-left: 1035px;
+    margin-top: -290px;
+    position: absolute;
+}
+.menu_item:before {
+    background: none repeat scroll 0 0 #ddd;
+    content: "";
+    height: 2px;
+    left: 248px;
+    position: absolute;
+    top: 15px;
+    width: 80px;
+}
+.footer_content {
+    margin-top: 15px;
+}
+.carousel-caption h3 {
+    font-family: "wc_mano_negra_btaregular";
+    font-size: 35px;
+    left: 30%;
+    position: absolute;
+    top: -95px;
+}
+.carousel-caption h4 {
+    font-family: "aleoregular";
+    left: 30%;
+    position: absolute;
+    top: -50px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    padding: 0px 20px;
+    border: 2px solid #ffaaaa;
+}
